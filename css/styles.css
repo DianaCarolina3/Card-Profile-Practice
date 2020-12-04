@@ -1,0 +1,111 @@
+:root {
+  --blue-color: #19a1ad;
+  --color-principal: #31344e;
+  --secundary-color: #80808b;
+  --line-color: #ebebed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+  background-color: var(--blue-color);
+  height: 100vh;
+}
+.main---pattern1 img {
+  z-index: 1;
+  position: fixed;
+  top: -250px;
+  right: 150px;
+  width: 500px;
+}
+.main---pattern2 img {
+  z-index: 1;
+  position: fixed;
+  top: 310px;
+  left: 140px;
+  width: 500px;
+}
+
+.main-card {
+  z-index: 2;
+  position: absolute;
+  top: calc(50% - 160px);
+  left: calc(50% - 140px);
+  display: block;
+  width: 280px;
+  height: 310px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.main-card-profile {
+  height: 80%;
+  text-align: center;
+}
+.card-profile--card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+.card-profile--photo img {
+  position: absolute;
+  top: 70px;
+  right: calc(50% - 45px);
+  width: 90px;
+  border-radius: 50px;
+  border: 5px solid white;
+}
+.card-profile--information {
+  margin-top: 60px;
+  border-bottom: 1px solid var(--line-color);
+}
+.card-profile--information h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--color-principal);
+}
+.card-profile--information span {
+  position: relative;
+  left: 5px;
+  font-weight: lighter;
+  color: var(--secundary-color);
+}
+.card-profile--information p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--secundary-color);
+}
+
+.main-card-points {
+  display: flex;
+  height: 55px;
+  text-align: center;
+  align-items: center;
+}
+.card-points {
+  width: 100%;
+}
+.card-points span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--color-principal);
+}
+.card-points p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin-top: 5px;
+  color: var(--secundary-color);
+}

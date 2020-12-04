@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px) {
+  .main---pattern1 img {
+    width: 800px;
+    top: -500px;
+    right: 800px;
+  }
+  .main---pattern2 img {
+    width: 800px;
+    left: 800px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main---pattern1 img {
+    width: 800px;
+    top: -500px;
+    right: 900px;
+  }
+  .main---pattern2 img {
+    width: 800px;
+    left: 900px;
+  }
+}
