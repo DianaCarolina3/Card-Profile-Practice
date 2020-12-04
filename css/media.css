@@ -8,6 +8,13 @@
     width: 800px;
     left: 800px;
   }
+  .main-card {
+    position: absolute;
+    top: calc(50% - 170px);
+    left: calc(50% - 155px);
+    width: 310px;
+    height: 340px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -19,5 +26,12 @@
   .main---pattern2 img {
     width: 800px;
     left: 900px;
+  }
+  .main-card {
+    position: absolute;
+    top: calc(50% - 180px);
+    left: calc(50% - 165px);
+    width: 330px;
+    height: 360px;
   }
 }
